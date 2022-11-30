@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class webcheckin {
     @GetMapping("/mywebcheckin")
     public String getData(){
-        return "Please do web checkin before 24 hours of flight";
+        return "Please do web checkin before 48 hours of flight";
     }
 }
